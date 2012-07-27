@@ -283,6 +283,9 @@ else
   print "dotzsh: invalid keymap: $keymap" >&2
 fi
 
+#temp, force vim
+bindkey -v
+
 # Set the EDITOR
 zstyle -s ':dotzsh:module:editor' editor 'editor'
 if [[ "$editor" == (nano|) ]]; then
