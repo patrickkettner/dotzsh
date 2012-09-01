@@ -39,7 +39,6 @@ alias locate='noglob locate'
 alias rake='noglob rake'
 
 # Define general aliases.
-alias _='sudo'
 alias __='sudo -s'
 alias b='${(z)BROWSER}'
 alias cp="${aliases[cp]:-cp} -i"
