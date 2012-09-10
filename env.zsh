@@ -41,6 +41,7 @@ unset path_file
 path=(
   /usr/local/{bin,sbin}
   /usr/{bin,sbin}
+  ~/local/{bin,sbin}
   /{bin,sbin}
   ~/bin/
   $path
